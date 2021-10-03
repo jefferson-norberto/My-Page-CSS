@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #fff;
+    
 }
 
 ul{
@@ -11,4 +13,9 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
