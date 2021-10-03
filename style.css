@@ -15,6 +15,7 @@ a{
     text-decoration: none;
 }
 
+/* Foi necessário o heigth para a imagem ocupar toda tela */
 body{
     height: 100vh;
     background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
@@ -30,4 +31,13 @@ body{
 
 .conteiner .name h5{
     font-size: 20px;
+}
+
+#about p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form{
+    width: 40%;
 }
